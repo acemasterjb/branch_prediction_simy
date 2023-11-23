@@ -1,0 +1,15 @@
+					👨‍🔬 Branch Prediction Simulation 👨‍🔬
+
+Simulation Process:
+    1) Randomly generate 10k numbers in range [0, 1) and insert into a vector
+    2) For every number in said vector:
+    3) Check for prediction results if [taken, not-taken, agrees with 1-bit and 2-bit history]
+    4) Update n-bit histories and go to step 1 until vector is exhausted
+
+Always Taken: 50.11%
+
+Always Not Taken: 49.89%
+
+One-Bit History: 49.27%
+
+Two-Bit History: 50.17%
