@@ -1,3 +1,8 @@
+// Author: Jamil Bousquet
+// Description: Simulation used to measure the performance
+// of 4 branch prediction techniques:
+// always taken, always not-taken, 1 and 2 bit history.
+
 use std::borrow::BorrowMut;
 
 use indoc::indoc;  // aka: indented document
